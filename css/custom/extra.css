@@ -378,3 +378,24 @@ font-family: "Roboto Slab", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
     -o-border-radius: 100%;
 
 }
+
+#contact{
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-image: url("../../img/iletişimmm.jpg");
+    background-position: center;
+}
+#contact input{
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+#contact .form-textarea {
+    height: 95%;
+}
+#contact .form-textarea textarea{
+    height: 100%;
+    min-height: 10rem;
+}
+#contact .form-control:focus {
+    box-shadow: 1px 1px 12px #d8df0b
+}
